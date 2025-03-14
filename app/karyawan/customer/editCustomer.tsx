@@ -92,7 +92,7 @@ const EditAdmin = (myProp: props) => {
                 <form onSubmit={e => handleSubmit(e)}>
                     <div className="w-full p-3 rounded-t-lg">
                         <h1 className="font-semibold text-lg">
-                            Edit Data Admin
+                            Edit Data Pelanggan
                         </h1>
                         <span className="text-sm text-slate-500">
                             Pastikan data yang diisi sudah benar
@@ -102,7 +102,7 @@ const EditAdmin = (myProp: props) => {
                     <div className="w-full p-3">
                         <div className="my-2 border rounded-md p-1">
                             <small className="text-sm font-semibold text-sky-600">
-                                Nama Admin
+                                Nama Pelanggan
                             </small>
                             <input type="text"
                                 value={name}

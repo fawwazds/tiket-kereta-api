@@ -26,7 +26,7 @@ const AdminPage = async() => {
     return (
         <div className="w-full p-5 bg-white">
             <h1 className="text-xl font-semibold">
-                Data Admin
+                Data Pelanggan
             </h1>
             <span className="text-sm">
                 Halaman ini memuat daftar admin yang tersedia

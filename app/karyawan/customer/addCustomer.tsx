@@ -35,7 +35,7 @@ const AddAdmin = () => {
         try {
             e.preventDefault()
             const TOKEN = getCookie(`token`)
-            const url = `/customer`
+            const url = `/customer/register`
             const requestData = {
                 name, nik, address, phone, username, password
             }
@@ -81,13 +81,13 @@ const AddAdmin = () => {
             <button type="button"
                 onClick={() => openModal()}
                 className="px-4 py-2 rounded-md bg-lime-600 hover:bg-lime-500 text-white">
-                Tambah Data Admin
+                Tambah Data Pelanggan
             </button>
             <Modal isShow={show}>
                 <form onSubmit={e => handleSubmit(e)}>
                     <div className="w-full p-3 rounded-t-lg">
                         <h1 className="font-semibold text-lg">
-                            Tambah Data Admin
+                            Tambah Data Pelanggan
                         </h1>
                         <span className="text-sm text-slate-500">
                             Pastikan data yang diisi sudah benar
@@ -97,7 +97,7 @@ const AddAdmin = () => {
                     <div className="w-full p-3">
                         <div className="my-2 border rounded-md p-1">
                             <small className="text-sm font-semibold text-sky-600">
-                                Nama Admin
+                                Nama Pelanggan
                             </small>
                             <input type="text"
                                 value={name}

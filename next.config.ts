@@ -3,7 +3,6 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com','www.refugee-action.org.uk'],
   },
-  
   eslint: {
     ignoreDuringBuilds: true,
   },

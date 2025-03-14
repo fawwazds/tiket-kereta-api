@@ -94,10 +94,10 @@ const ResetPassword = (myProp: props) => {
                 <form onSubmit={e => handleSubmit(e)}>
                     <div className="w-full p-3 rounded-t-lg">
                         <h1 className="font-semibold text-lg">
-                            Reset Password Admin
+                            Reset Password Pelanggan
                         </h1>
                         <span className="text-sm text-slate-500">
-                            Masukkan password baru untuk admin {myProp.admin.name}
+                            Masukkan password baru untuk pelanggan {myProp.admin.name}
                         </span>
                     </div>
 

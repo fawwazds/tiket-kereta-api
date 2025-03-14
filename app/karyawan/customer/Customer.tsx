@@ -14,7 +14,7 @@ const Admin = (myProp: props) => {
         <div className="w-full flex flex-wrap my-2 border rounded-md">
             <div className="w-full md:w-4/12 p-2 flex flex-col">
                 <small className="text-sm font-medium">
-                    Nama Admin
+                    Nama Karyawan
                 </small>
                 <span>
                     {myProp.item.name}
