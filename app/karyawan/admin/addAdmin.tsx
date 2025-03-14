@@ -35,7 +35,7 @@ const AddAdmin = () => {
         try {
             e.preventDefault()
             const TOKEN = getCookie(`token`)
-            const url = `/employee`
+            const url = `/employee/register`
             const requestData = {
                 name, nik, address, phone, username, password
             }

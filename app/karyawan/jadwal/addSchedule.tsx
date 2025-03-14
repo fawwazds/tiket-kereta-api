@@ -70,7 +70,7 @@ const AddSchedule = (myProp: Props) => {
                 toast(message, { containerId: `toastAddJadwal`, type: `warning` })
             }
         } catch (error) {
-            console.log(error)
+            console.log(error)          
             toast(`Something went wrong`, { containerId: `toastAddJadwal`, type: `error` })
         }
     }
