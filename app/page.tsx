@@ -99,7 +99,7 @@ const LoginPage = () => {
             <span className="text-sm text-blue-600">
               Password
             </span>
-            <input type="pasword"
+            <input type="password"
               id={`password`}
               value={password}
               onChange={event => setPassword(event.target.value)}
